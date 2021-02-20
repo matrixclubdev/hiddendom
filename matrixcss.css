@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.block {
+  display: block;
+  width: 90%;
+  max-width: 73%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: min(4vw, 35px);
+  cursor: pointer;
+  text-align: center;
+  top: 50%;
+  margin: 0 auto;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+  }
+
+.content {
+  display: block;
+  margin: 0 auto;
+}
+
+@font-face { font-family: Overpass; src: url('overpass-extrabold.otf'); }
