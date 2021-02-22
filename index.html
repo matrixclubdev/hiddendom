@@ -21,23 +21,38 @@ input[type="button"]:focus
     <meta name="author" content="BigBull">
     <link href="matrixcss.css" rel="stylesheet">
     <title>Matrix Club</title>
+
+    <script type="text/javascript">
+      window.MemberfulOptions = {site: "https://thematrixclub.memberful.com"};
+      (function() {
+        var s = document.createElement('script');
+
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'https://d35xxde4fgg0cx.cloudfront.net/assets/embedded.js';
+
+        setup = function() { window.MemberfulEmbedded.setup(); }
+
+        s.addEventListener("load", setup, false);
+
+        ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+      })();
+    </script>
 </head>
 
 <body class="content" style="background-color:black;">
   <div>
-    <br><br><br>
-  </div>
-  <div class="wrapper">
-    <input type="image" src="info.png" width="90%" style="max-width:800px" name="saveForm" class="btTxt submit" onclick="location.href='https://donatebot.io/checkout/789181755265515551';" />
-  </div>
-  <div>
     <br><br>
   </div>
   <div class="wrapper">
-    <button class="block" width="73%" onclick="location.href = 'https://donatebot.io/checkout/789181755265515551';" style="font-family:overpass;">Join Now!</button>
+    <input type="image" src="fullinfo.png" width="90%" style="max-width:800px" name="saveForm" class="btTxt submit" onclick="location.href='https://thematrixclub.memberful.com/join';" />
+  </div>
+  <div class="wrapper">
+    <br>
+    <button class="block" width="73%" onclick="location.href = 'https://thematrixclub.memberful.com/join';" style="font-family:overpass;">Join Now!</button>
   </div>
   <div>
-    <br><br><br><br><br><br><br>
+    <br><br><br>
   </div>
 </body>
 
